@@ -1,0 +1,95 @@
+body{
+	background-image:url("images/BackGround.jpg");
+}
+
+#container{
+	width:1080px;
+	height:100px;
+	min-height:800px;
+	/*background-color:#ffffff;*/
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#income-form{
+	top:500px;
+}
+
+#expense-form{
+	top:500px;
+}
+
+#balance{
+	width:500px;
+	height:500px;
+	border-radius: 250px;
+	background-image:url(images/Progressbar.jpg);
+	float:left;
+	bottom:0px;
+	top:540px;
+}
+#balanceText{
+	text-align:center;
+	margin-top:30%;
+	font-size:60pt;
+}
+
+#expenses{
+	float:left;
+	width:289px;
+	height:100%;
+}
+
+#income{
+	float:right;
+	width:289px;
+	height:100%;
+}
+
+.expense{
+	float:left;
+	width:90%;
+	height:5%;
+	margin:5%;
+}
+
+.income{
+	float:right;
+	width:90%;
+	height:5%;
+	margin:5%;
+	vertical-align:center;
+	font-weight:bold;
+	font-size:10pt;
+	text-align:center;
+	border-radius:2px;
+	background-color:#339966;
+}
+
+.expense h4{
+	margin:0;
+	padding-left:0;
+	text-align:center;
+	
+}
+
+.ui-progressbar.ui-widget-content {
+     background: red;
+	 border:none;
+ }
+ 
+#label {
+    position: relative;
+	font-weight:bold;
+	background:none;
+    display:block;
+	text-align:center;
+    margin-top:-30px;
+	top:34px;
+  }
+
+.ui-progressbar .ui-progressbar-value {
+    background-image: url(images/Progressbar.jpg);
+	
+}
